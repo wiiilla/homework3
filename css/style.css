@@ -47,7 +47,7 @@ a {
 	text-decoration-style: wavy;
 }
 
-:focus {
+* :focus {
 	border-radius: 3px;
 	border-style: dashed;
 	border-color: #417243;
@@ -90,9 +90,9 @@ tr:nth-child(even) {
 	background-color: #D1D1D1;
 }
 
-tr:hover {
+tbody tr:hover {
 	background-color: rgba(126, 8, 32, .25);
-	transition: background-color 1s ease-in-out;
+	/* transition: background-color 1s ease-in-out; */
 }
 
 tbody tr:last-child {
@@ -115,8 +115,6 @@ tbody tr:last-child th {
 tbody tr:last-child td:last-child {
 	border-bottom-right-radius: 10px;
 }
-
-* {}
 
 footer {
 	min-height: 75px;
