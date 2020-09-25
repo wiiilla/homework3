@@ -15,7 +15,7 @@ body {
 	font-family: 'Andika', sans-serif;
 	background-size: cover;
 	background-position: center;
-	background-image: url('../images/pigeon-background.jpeg');
+	background-image: url('../images/pigeon-background.JPEG');
 	background-repeat: no-repeat;
 	background-position: center;
 	background-color: #DDDDDD;
@@ -91,12 +91,7 @@ tr:nth-child(even) {
 }
 
 tr:hover {
-	background-color: rgba(126, 8, 32,0.25);
-	transition: background-color 1s ease-in-out;
-}
-
-tr {
-	background-color: unset;
+	background-color: rgba(126, 8, 32, .25);
 	transition: background-color 1s ease-in-out;
 }
 
