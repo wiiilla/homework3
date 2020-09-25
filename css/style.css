@@ -86,7 +86,7 @@ td {
 	border-top: 2px solid black;
 }
 
-tr:nth-child(odd) {
+tr:nth-child(even) {
 	background-color: #D1D1D1;
 }
 
